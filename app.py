@@ -7,7 +7,7 @@ app = FastAPI(title="FastAPI CI/CD Demo")
 def read_root():
     return {
         "status": "ok",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "deployed_via": "GitHub Actions + GHCR",
     }
 
