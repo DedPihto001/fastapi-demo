@@ -66,4 +66,4 @@ jobs:
             docker pull ghcr.io/dedpihto001/fastapi-demo:latest
             docker stop fastapi-demo || true
             docker rm fastapi-demo || true
-            docker run -d --name fastapi-demo --restart always -p 8080:8000 ghcr.io/dedpihto001/fastapi-demo:latest
+            docker run -d --name fastapi-demo --restart always -p 8090:8000 ghcr.io/dedpihto001/fastapi-demo:latest
